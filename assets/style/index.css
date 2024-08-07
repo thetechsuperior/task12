@@ -71,7 +71,6 @@ body {
     animation: popup .9s forwards, bounceZ 1s .9s 1;
 }
 
-
 #topMidOrange {
     position: absolute;
     height: auto;
@@ -177,7 +176,6 @@ body {
     margin-bottom: 5%;
 }
 
-
 #introRightBG {
     position: absolute;
     height: 100%;
@@ -195,10 +193,6 @@ body {
     padding: 5%;
 }
 
-.guestsThisYear {
-    text-align: center;
-}
-
 .guestsThisYear>* {
     margin: 5%;
 }
@@ -208,10 +202,6 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
-
-.blackBGHeading {
-    font-size: clamp(1.3rem, max(2vw, 2vh), 2rem);
 }
 
 .blackBGText {
@@ -242,7 +232,6 @@ body {
     line-height: 160%;
     color: rgba(255, 255, 255, 0.7);
 }
-
 
 .notAllPink>div {
     background-color: var(--pink);
@@ -410,18 +399,15 @@ footer .allpink {
     justify-content: center;
     flex-wrap: wrap;
 }
-
 .socialMedia {
     text-align: center;
     padding: 0% 10% 5% 10%;
 }
-
 .socialMedia>img {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-
 .socialMediaIcons {
     gap: 3%;
 }
@@ -452,7 +438,6 @@ footer .allpink {
 #footerText {
     font-size: clamp(.5rem, max(1.5vh, 2.5vw), 1.3rem);
     color: rgba(255, 255, 255, 0.7);
-
 }
 
 .footerExploreItems {
@@ -681,7 +666,6 @@ footer .allpink {
         opacity: 1;
     }
 }
-
 .quotationAppearDisappear {
     animation: appearDisappearFromRoof 1s ease-out 3;
     animation-delay: 2s;
