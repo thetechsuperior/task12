@@ -290,13 +290,6 @@ body {
     padding: 1.5%;
 }
 
-.blackBGArea {
-    text-align: center;
-    margin: 10%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-}
-
 .whatToDo>img {
     height: auto;
     position: relative;
@@ -324,12 +317,7 @@ body {
     flex-wrap: wrap;
 }
 
-.ourNumber section div {
-    max-width: 35%;
-}
-
 .ourNumber>p {
-    text-align: center;
     font-size: clamp(1rem, max(2vw, 2vh), 1.9rem);
 }
 
@@ -622,40 +610,6 @@ footer .allpink {
     animation: roundBounce 5s ease-in-out infinite;
     transition-delay: 4sec;
 }
-
-@keyframes vibrate{
-    0% {
-        transform: translateX(0);
-    }
-    10% {
-        transform: translateX(1px);
-    }
-    20% {
-        transform: translateX(0px);
-    }
-    30% {
-        transform: translateX(-1px);
-    }
-    40% {
-        transform: translateX(0px);
-    }
-    50% {
-        transform: translateY(1px);
-    }
-    60% {
-        transform: translateY(0px);
-    }
-    70% {
-        transform: translateY(-1px);
-    }
-    80% {
-        transform: translateX(0px);
-    }
-}
-#vibrateAnimation{
-    animation: vibrate .1s ease infinite;
-}
-
 @keyframes appearDisappearFromRoof {
     from {
         transform: scaleY(0) translateY(-5px);
